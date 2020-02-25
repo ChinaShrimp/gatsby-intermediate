@@ -21,7 +21,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   // fields to this type
   // Node is one of the core types in Gatsby, which provided filtering, searching...
   actions.createTypes(`
-    type DocPages implements Node @dontInfer {
+    type DocsPage implements Node @dontInfer {
       id: ID!
       title: String!
       path: String!

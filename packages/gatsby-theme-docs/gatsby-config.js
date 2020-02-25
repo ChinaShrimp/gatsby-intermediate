@@ -10,8 +10,8 @@ module.exports = options => {
       {
         resolve: 'gatsby-source-filesystem',
         options: {
-          // to avoid name confiliction
-          name: 'gatsby-source-filesystem',
+          // to avoid name confiction
+          name: 'gatsby-theme-docs',
           path: contentPath,
         },
       },
